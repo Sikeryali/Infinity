@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+body {
+   
+   background-color: #f5f6fa;
+   margin: 0;
+   font-family: 'Dancing Script', cursive;
+}
+
+.navigation{
+    position: fixed;
+    background-color:rgba(0, 153, 255, 0.5);
+    width:100%;
+    padding: 10px;
+}
+.navigation > .links .link {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navigation > .links  .link a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.navigation > .links .link :hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+    
+    
+}
+.call-to-action{
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/06/14/18/vault-4320554_1280.jpg);
+height: 40em;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+.call-to-action h1, h3{
+    color: #f5f6fa;
+    text-align: center;
+    margin: 0;
+}
+
+.content{
+    margin: 100px 0px;
+
+}
+
+.content .tagline{
+    text-align: center;
+    font-size: 2em;
+}
+
+#about .about img{
+    max-width: 300px;
+    height: auto;
+
+
+}
+#about .about p{
+    font-size: 25px;
+}
+
+#portfolio > .portfolio ul{
+    padding-left: 0;
+}
+
+#portfolio > .portfolio ul li {
+    display: inline;
+}
+#contact .contact-links {
+    text-align: center;
+    padding: 30px;
+ }
+ #contact .contact-links a {
+    color: grey;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+ }
+ footer {
+    padding: 10px;
+    background-color: grey;
+    text-align: center;
+    color: lightskyblue;
+ }
